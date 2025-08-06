@@ -1,7 +1,7 @@
 import tkinter as tk
-from views.login_view import cargar_login
-from views.formulario import FormularioProducto
-from views.productos_view import cargar_productos
+from paneles.login_view import cargar_login
+from paneles.formulario import FormularioProducto
+from paneles.productos_view import cargar_productos
 
 def main():
     ventana = tk.Tk()
@@ -55,4 +55,7 @@ def main():
     ventana.mainloop()
 
 if __name__ == "__main__":
-    main()
+    main() 
+
+#andrea.lopez@example.com 
+#andrea123
